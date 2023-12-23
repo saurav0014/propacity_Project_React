@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: #03123d;
+  color: white;
+  padding: 1em;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  padding: 3em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBar {
+  position: relative;
+  display: inline-block;
+  border: none;
+}
+
+.searchIcon {
+  position: absolute;
+  background-color: #03123d;
+}
+
+.searchInput {
+  padding-left: 1.5em;
+}
+
+.navBar {
+  width: 8.5em;
+  padding: 1em 0;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+  text-decoration: none;
+}
+
+.selectCategory {
+  text-decoration: none;
+  color: white;
+}
+
+.folderLogo {
+  padding-right: 0.2em;
+}
+
+.rightArrow {
+  padding: 4px 0;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontPage {
+  width: 43vw;
+  padding: 1em;
+  background-color: white;
+  color: black;
+  border-radius: 0.5em;
+}
+
+.frontPage > img {
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.toggle {
+  width: 5.5em;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: #696974;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  background-color: #03123d;
+}
+
+.list-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #401ba5;
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+  padding-right: 6px;
+}
+
+.cardBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+
+.image > img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  background: rgba(259, 250, 253, 0.2);
+  color: white;
+  border-radius: 8px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.detailing {
+  width: 70%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.largeImage {
+  width: 400px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.Title {
+  padding: 0 1em;
+}
+
+.dropDownBox {
+  bottom: 8em;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropDown {
+  width: 11em;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 0.6em;
+}
+
+.dropDown > button {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.4em;
+  border-radius: 0.6em;
+  border: none;
+  cursor: pointer;
+}
+
+.dropDown > button > p {
+  text-align: left;
+}
+
+.dropDown > button > img {
+  padding-left: 1em;
+}
+
+.modal {
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  width: 20em;
+  background-color: rgb(243, 211, 211);
+  color: black;
+  z-index: 2;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1em;
+}
+
+.btnRed {
+  background-color: rgb(226, 41, 41);
+  color: white;
+}
